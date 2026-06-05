@@ -27,7 +27,7 @@ with open('feature_cols.pkl', 'rb') as f:
 print("Artifacts loaded.")
 
 # ── Load & preprocess test.csv ────────────────────────────────────────────────
-df_test = pd.read_csv('dataset/test.csv')
+df_test = pd.read_csv('test.csv')
 
 # Impute
 road_imputer    = SimpleImputer(strategy='most_frequent')
